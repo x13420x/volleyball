@@ -36,3 +36,5 @@
 
 [View Game 17 Results - June 15, 2025](https://x13420x.github.io/volleyball/game_17.html)
 
+[View Game 18 Results - June 23, 2025](https://x13420x.github.io/volleyball/game_18.html)
+
