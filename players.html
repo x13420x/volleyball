@@ -6,77 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Volleyball Players</title>
     <style>
-        body {{
-            background-color: #0a0e2a;
-            color: #e2e8f0;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-image: radial-gradient(circle at 10% 20%, rgba(21, 27, 64, 1) 0%, rgba(10, 14, 42, 1) 90%);
-        }}
-        .container {{
-            max-width: 800px;
-            margin: 0 auto;
-            position: relative;
-            z-index: 1;
-        }}
-        .gradient-text {{
-            background: linear-gradient(90deg, #4f46e5, #ec4899);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            font-weight: 700;
-            font-size: 36px;
-            text-align: center;
-            margin-bottom: 8px;
-        }}
-        .players-table {{
-            width: 100%;
-            border-collapse: separate;
-            border-spacing: 0 10px;
-            margin-top: 20px;
-        }}
-        .players-table th {{
-            background: rgba(30, 41, 59, 0.8);
-            padding: 15px;
-            text-align: left;
-            font-weight: 600;
-            color: #e2e8f0;
-        }}
-        .players-table td {{
-            background: rgba(30, 41, 59, 0.7);
-            padding: 15px;
-            color: #e2e8f0;
-        }}
-        .players-table tr:hover td {{
-            background: rgba(255, 255, 255, 0.1);
-        }}
-        .player-name {{
-            position: relative;
-            cursor: pointer;
-        }}
-        .player-name:hover .games-dropdown {{
-            display: block;
-        }}
-        .games-dropdown {{
-            display: none;
-            position: absolute;
-            background: rgba(30, 41, 59, 0.9);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            border-radius: 8px;
-            padding: 10px;
-            z-index: 10;
-            min-width: 200px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }}
-        .games-dropdown a {{
-            color: #e2e8f0;
-            text-decoration: none;
-            display: block;
-            margin: 5px 0;
-        }}
-        .games-dropdown a:hover {{
-            text-decoration: underline;
-        }}
+        body { background-color: #0a0e2a; color: #e2e8f0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 20px; background-image: radial-gradient(circle at 10% 20%, rgba(21, 27, 64, 1) 0%, rgba(10, 14, 42, 1) 90%); }
+        .container { max-width: 800px; margin: 0 auto; }
+        .gradient-text { background: linear-gradient(90deg, #4f46e5, #ec4899); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: 700; font-size: 36px; text-align: center; margin-bottom: 8px; }
+        .players-table { width: 100%; border-collapse: separate; border-spacing: 0 10px; margin-top: 20px; }
+        .players-table th { background: rgba(30, 41, 59, 0.8); padding: 15px; text-align: left; font-weight: 600; color: #e2e8f0; }
+        .players-table td { background: rgba(30, 41, 59, 0.7); padding: 15px; color: #e2e8f0; }
+        .players-table tr:hover td { background: rgba(255, 255, 255, 0.1); }
+        .player-name { position: relative; cursor: pointer; }
+        .player-name:hover .games-dropdown { display: block; }
+        .games-dropdown { display: none; position: absolute; background: rgba(30, 41, 59, 0.9); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 8px; padding: 10px; z-index: 10; min-width: 200px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); }
+        .games-dropdown a { color: #e2e8f0; text-decoration: none; display: block; margin: 5px 0; }
+        .games-dropdown a:hover { text-decoration: underline; }
     </style>
 </head>
 <body>
@@ -97,9 +38,7 @@
                     <td>A1</td>
                     <td class="player-name">
                         Abel Azurdia
-                        <div class="games-dropdown">
-                            <a href="https://x13420x.github.io/volleyball/game_1.html">Game 1 - February 21, 2025</a><a href="https://x13420x.github.io/volleyball/game_2.html">Game 2 - February 25, 2025</a><a href="https://x13420x.github.io/volleyball/game_3.html">Game 3 - February 26, 2025</a><a href="https://x13420x.github.io/volleyball/game_4.html">Game 4 - February 28, 2025</a><a href="https://x13420x.github.io/volleyball/game_5.html">Game 5 - March 05, 2025</a><a href="https://x13420x.github.io/volleyball/game_6.html">Game 6 - March 08, 2025</a><a href="https://x13420x.github.io/volleyball/game_7.html">Game 7 - March 12, 2025</a><a href="https://x13420x.github.io/volleyball/game_8.html">Game 8 - March 15, 2025</a><a href="https://x13420x.github.io/volleyball/game_9.html">Game 9 - March 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_10.html">Game 10 - March 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_11.html">Game 11 - May 04, 2025</a><a href="https://x13420x.github.io/volleyball/game_12.html">Game 12 - May 17, 2025</a><a href="https://x13420x.github.io/volleyball/game_15.html">Game 15 - May 22, 2025</a><a href="https://x13420x.github.io/volleyball/game_16.html">Game 16 - May 31, 2025</a><a href="https://x13420x.github.io/volleyball/game_17.html">Game 17 - June 15, 2025</a><a href="https://x13420x.github.io/volleyball/game_18.html">Game 18 - June 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_19.html">Game 19 - June 24, 2025</a>
-                        </div>
+                        <div class="games-dropdown"><a href="https://x13420x.github.io/volleyball/game_1.html" target="_blank">Game 1 - February 21, 2025</a><a href="https://x13420x.github.io/volleyball/game_2.html" target="_blank">Game 2 - February 25, 2025</a><a href="https://x13420x.github.io/volleyball/game_3.html" target="_blank">Game 3 - February 26, 2025</a><a href="https://x13420x.github.io/volleyball/game_4.html" target="_blank">Game 4 - February 28, 2025</a><a href="https://x13420x.github.io/volleyball/game_5.html" target="_blank">Game 5 - March 05, 2025</a><a href="https://x13420x.github.io/volleyball/game_6.html" target="_blank">Game 6 - March 08, 2025</a><a href="https://x13420x.github.io/volleyball/game_7.html" target="_blank">Game 7 - March 12, 2025</a><a href="https://x13420x.github.io/volleyball/game_8.html" target="_blank">Game 8 - March 15, 2025</a><a href="https://x13420x.github.io/volleyball/game_9.html" target="_blank">Game 9 - March 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_10.html" target="_blank">Game 10 - March 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_11.html" target="_blank">Game 11 - May 04, 2025</a><a href="https://x13420x.github.io/volleyball/game_12.html" target="_blank">Game 12 - May 17, 2025</a><a href="https://x13420x.github.io/volleyball/game_15.html" target="_blank">Game 15 - May 22, 2025</a><a href="https://x13420x.github.io/volleyball/game_16.html" target="_blank">Game 16 - May 31, 2025</a><a href="https://x13420x.github.io/volleyball/game_17.html" target="_blank">Game 17 - June 15, 2025</a><a href="https://x13420x.github.io/volleyball/game_18.html" target="_blank">Game 18 - June 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_19.html" target="_blank">Game 19 - June 24, 2025</a></div>
                     </td>
                     <td>17</td>
                     <td>-</td>
@@ -109,9 +48,7 @@
                     <td>A2</td>
                     <td class="player-name">
                         Aneth
-                        <div class="games-dropdown">
-                            <a href="https://x13420x.github.io/volleyball/game_4.html">Game 4 - February 28, 2025</a><a href="https://x13420x.github.io/volleyball/game_12.html">Game 12 - May 17, 2025</a><a href="https://x13420x.github.io/volleyball/game_15.html">Game 15 - May 22, 2025</a><a href="https://x13420x.github.io/volleyball/game_17.html">Game 17 - June 15, 2025</a><a href="https://x13420x.github.io/volleyball/game_19.html">Game 19 - June 24, 2025</a>
-                        </div>
+                        <div class="games-dropdown"><a href="https://x13420x.github.io/volleyball/game_4.html" target="_blank">Game 4 - February 28, 2025</a><a href="https://x13420x.github.io/volleyball/game_12.html" target="_blank">Game 12 - May 17, 2025</a><a href="https://x13420x.github.io/volleyball/game_15.html" target="_blank">Game 15 - May 22, 2025</a><a href="https://x13420x.github.io/volleyball/game_17.html" target="_blank">Game 17 - June 15, 2025</a><a href="https://x13420x.github.io/volleyball/game_19.html" target="_blank">Game 19 - June 24, 2025</a></div>
                     </td>
                     <td>5</td>
                     <td>-</td>
@@ -121,9 +58,7 @@
                     <td>A3</td>
                     <td class="player-name">
                         Astrid
-                        <div class="games-dropdown">
-                            <a href="https://x13420x.github.io/volleyball/game_4.html">Game 4 - February 28, 2025</a><a href="https://x13420x.github.io/volleyball/game_11.html">Game 11 - May 04, 2025</a><a href="https://x13420x.github.io/volleyball/game_12.html">Game 12 - May 17, 2025</a><a href="https://x13420x.github.io/volleyball/game_15.html">Game 15 - May 22, 2025</a><a href="https://x13420x.github.io/volleyball/game_17.html">Game 17 - June 15, 2025</a><a href="https://x13420x.github.io/volleyball/game_19.html">Game 19 - June 24, 2025</a>
-                        </div>
+                        <div class="games-dropdown"><a href="https://x13420x.github.io/volleyball/game_4.html" target="_blank">Game 4 - February 28, 2025</a><a href="https://x13420x.github.io/volleyball/game_11.html" target="_blank">Game 11 - May 04, 2025</a><a href="https://x13420x.github.io/volleyball/game_12.html" target="_blank">Game 12 - May 17, 2025</a><a href="https://x13420x.github.io/volleyball/game_15.html" target="_blank">Game 15 - May 22, 2025</a><a href="https://x13420x.github.io/volleyball/game_17.html" target="_blank">Game 17 - June 15, 2025</a><a href="https://x13420x.github.io/volleyball/game_19.html" target="_blank">Game 19 - June 24, 2025</a></div>
                     </td>
                     <td>6</td>
                     <td>-</td>
@@ -133,9 +68,7 @@
                     <td>A4</td>
                     <td class="player-name">
                         Andrea Azurdia
-                        <div class="games-dropdown">
-                            <a href="https://x13420x.github.io/volleyball/game_16.html">Game 16 - May 31, 2025</a><a href="https://x13420x.github.io/volleyball/game_18.html">Game 18 - June 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_19.html">Game 19 - June 24, 2025</a>
-                        </div>
+                        <div class="games-dropdown"><a href="https://x13420x.github.io/volleyball/game_16.html" target="_blank">Game 16 - May 31, 2025</a><a href="https://x13420x.github.io/volleyball/game_18.html" target="_blank">Game 18 - June 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_19.html" target="_blank">Game 19 - June 24, 2025</a></div>
                     </td>
                     <td>3</td>
                     <td>-</td>
@@ -145,9 +78,7 @@
                     <td>B1</td>
                     <td class="player-name">
                         Braylin
-                        <div class="games-dropdown">
-                            <a href="https://x13420x.github.io/volleyball/game_16.html">Game 16 - May 31, 2025</a><a href="https://x13420x.github.io/volleyball/game_17.html">Game 17 - June 15, 2025</a>
-                        </div>
+                        <div class="games-dropdown"><a href="https://x13420x.github.io/volleyball/game_16.html" target="_blank">Game 16 - May 31, 2025</a><a href="https://x13420x.github.io/volleyball/game_17.html" target="_blank">Game 17 - June 15, 2025</a></div>
                     </td>
                     <td>2</td>
                     <td>-</td>
@@ -157,9 +88,7 @@
                     <td>C1</td>
                     <td class="player-name">
                         Claudia Azurdia
-                        <div class="games-dropdown">
-                            <a href="https://x13420x.github.io/volleyball/game_16.html">Game 16 - May 31, 2025</a>
-                        </div>
+                        <div class="games-dropdown"><a href="https://x13420x.github.io/volleyball/game_16.html" target="_blank">Game 16 - May 31, 2025</a></div>
                     </td>
                     <td>1</td>
                     <td>-</td>
@@ -169,9 +98,7 @@
                     <td>D1</td>
                     <td class="player-name">
                         Diego Azurdia
-                        <div class="games-dropdown">
-                            <a href="https://x13420x.github.io/volleyball/game_1.html">Game 1 - February 21, 2025</a><a href="https://x13420x.github.io/volleyball/game_4.html">Game 4 - February 28, 2025</a><a href="https://x13420x.github.io/volleyball/game_6.html">Game 6 - March 08, 2025</a><a href="https://x13420x.github.io/volleyball/game_7.html">Game 7 - March 12, 2025</a><a href="https://x13420x.github.io/volleyball/game_8.html">Game 8 - March 15, 2025</a><a href="https://x13420x.github.io/volleyball/game_9.html">Game 9 - March 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_10.html">Game 10 - March 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_11.html">Game 11 - May 04, 2025</a><a href="https://x13420x.github.io/volleyball/game_12.html">Game 12 - May 17, 2025</a><a href="https://x13420x.github.io/volleyball/game_13.html">Game 13 - May 21, 2025</a><a href="https://x13420x.github.io/volleyball/game_14.html">Game 14 - May 21, 2025</a><a href="https://x13420x.github.io/volleyball/game_15.html">Game 15 - May 22, 2025</a><a href="https://x13420x.github.io/volleyball/game_16.html">Game 16 - May 31, 2025</a><a href="https://x13420x.github.io/volleyball/game_17.html">Game 17 - June 15, 2025</a><a href="https://x13420x.github.io/volleyball/game_18.html">Game 18 - June 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_19.html">Game 19 - June 24, 2025</a>
-                        </div>
+                        <div class="games-dropdown"><a href="https://x13420x.github.io/volleyball/game_1.html" target="_blank">Game 1 - February 21, 2025</a><a href="https://x13420x.github.io/volleyball/game_4.html" target="_blank">Game 4 - February 28, 2025</a><a href="https://x13420x.github.io/volleyball/game_6.html" target="_blank">Game 6 - March 08, 2025</a><a href="https://x13420x.github.io/volleyball/game_7.html" target="_blank">Game 7 - March 12, 2025</a><a href="https://x13420x.github.io/volleyball/game_8.html" target="_blank">Game 8 - March 15, 2025</a><a href="https://x13420x.github.io/volleyball/game_9.html" target="_blank">Game 9 - March 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_10.html" target="_blank">Game 10 - March 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_11.html" target="_blank">Game 11 - May 04, 2025</a><a href="https://x13420x.github.io/volleyball/game_12.html" target="_blank">Game 12 - May 17, 2025</a><a href="https://x13420x.github.io/volleyball/game_13.html" target="_blank">Game 13 - May 21, 2025</a><a href="https://x13420x.github.io/volleyball/game_14.html" target="_blank">Game 14 - May 21, 2025</a><a href="https://x13420x.github.io/volleyball/game_15.html" target="_blank">Game 15 - May 22, 2025</a><a href="https://x13420x.github.io/volleyball/game_16.html" target="_blank">Game 16 - May 31, 2025</a><a href="https://x13420x.github.io/volleyball/game_17.html" target="_blank">Game 17 - June 15, 2025</a><a href="https://x13420x.github.io/volleyball/game_18.html" target="_blank">Game 18 - June 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_19.html" target="_blank">Game 19 - June 24, 2025</a></div>
                     </td>
                     <td>16</td>
                     <td>-</td>
@@ -181,9 +108,7 @@
                     <td>D2</td>
                     <td class="player-name">
                         David
-                        <div class="games-dropdown">
-                            <a href="https://x13420x.github.io/volleyball/game_3.html">Game 3 - February 26, 2025</a><a href="https://x13420x.github.io/volleyball/game_4.html">Game 4 - February 28, 2025</a><a href="https://x13420x.github.io/volleyball/game_6.html">Game 6 - March 08, 2025</a><a href="https://x13420x.github.io/volleyball/game_7.html">Game 7 - March 12, 2025</a><a href="https://x13420x.github.io/volleyball/game_8.html">Game 8 - March 15, 2025</a><a href="https://x13420x.github.io/volleyball/game_9.html">Game 9 - March 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_10.html">Game 10 - March 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_11.html">Game 11 - May 04, 2025</a><a href="https://x13420x.github.io/volleyball/game_12.html">Game 12 - May 17, 2025</a><a href="https://x13420x.github.io/volleyball/game_13.html">Game 13 - May 21, 2025</a><a href="https://x13420x.github.io/volleyball/game_14.html">Game 14 - May 21, 2025</a><a href="https://x13420x.github.io/volleyball/game_17.html">Game 17 - June 15, 2025</a>
-                        </div>
+                        <div class="games-dropdown"><a href="https://x13420x.github.io/volleyball/game_3.html" target="_blank">Game 3 - February 26, 2025</a><a href="https://x13420x.github.io/volleyball/game_4.html" target="_blank">Game 4 - February 28, 2025</a><a href="https://x13420x.github.io/volleyball/game_6.html" target="_blank">Game 6 - March 08, 2025</a><a href="https://x13420x.github.io/volleyball/game_7.html" target="_blank">Game 7 - March 12, 2025</a><a href="https://x13420x.github.io/volleyball/game_8.html" target="_blank">Game 8 - March 15, 2025</a><a href="https://x13420x.github.io/volleyball/game_9.html" target="_blank">Game 9 - March 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_10.html" target="_blank">Game 10 - March 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_11.html" target="_blank">Game 11 - May 04, 2025</a><a href="https://x13420x.github.io/volleyball/game_12.html" target="_blank">Game 12 - May 17, 2025</a><a href="https://x13420x.github.io/volleyball/game_13.html" target="_blank">Game 13 - May 21, 2025</a><a href="https://x13420x.github.io/volleyball/game_14.html" target="_blank">Game 14 - May 21, 2025</a><a href="https://x13420x.github.io/volleyball/game_17.html" target="_blank">Game 17 - June 15, 2025</a></div>
                     </td>
                     <td>12</td>
                     <td>-</td>
@@ -193,9 +118,7 @@
                     <td>D3</td>
                     <td class="player-name">
                         Dylan
-                        <div class="games-dropdown">
-                            <a href="https://x13420x.github.io/volleyball/game_8.html">Game 8 - March 15, 2025</a><a href="https://x13420x.github.io/volleyball/game_9.html">Game 9 - March 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_10.html">Game 10 - March 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_11.html">Game 11 - May 04, 2025</a>
-                        </div>
+                        <div class="games-dropdown"><a href="https://x13420x.github.io/volleyball/game_8.html" target="_blank">Game 8 - March 15, 2025</a><a href="https://x13420x.github.io/volleyball/game_9.html" target="_blank">Game 9 - March 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_10.html" target="_blank">Game 10 - March 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_11.html" target="_blank">Game 11 - May 04, 2025</a></div>
                     </td>
                     <td>4</td>
                     <td>-</td>
@@ -205,9 +128,7 @@
                     <td>D4</td>
                     <td class="player-name">
                         Darky
-                        <div class="games-dropdown">
-                            <a href="https://x13420x.github.io/volleyball/game_13.html">Game 13 - May 21, 2025</a>
-                        </div>
+                        <div class="games-dropdown"><a href="https://x13420x.github.io/volleyball/game_13.html" target="_blank">Game 13 - May 21, 2025</a></div>
                     </td>
                     <td>1</td>
                     <td>-</td>
@@ -217,9 +138,7 @@
                     <td>E1</td>
                     <td class="player-name">
                         Emidio Mendoza
-                        <div class="games-dropdown">
-                            <a href="https://x13420x.github.io/volleyball/game_3.html">Game 3 - February 26, 2025</a><a href="https://x13420x.github.io/volleyball/game_4.html">Game 4 - February 28, 2025</a><a href="https://x13420x.github.io/volleyball/game_5.html">Game 5 - March 05, 2025</a><a href="https://x13420x.github.io/volleyball/game_6.html">Game 6 - March 08, 2025</a><a href="https://x13420x.github.io/volleyball/game_7.html">Game 7 - March 12, 2025</a><a href="https://x13420x.github.io/volleyball/game_8.html">Game 8 - March 15, 2025</a><a href="https://x13420x.github.io/volleyball/game_9.html">Game 9 - March 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_10.html">Game 10 - March 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_11.html">Game 11 - May 04, 2025</a><a href="https://x13420x.github.io/volleyball/game_12.html">Game 12 - May 17, 2025</a><a href="https://x13420x.github.io/volleyball/game_13.html">Game 13 - May 21, 2025</a><a href="https://x13420x.github.io/volleyball/game_14.html">Game 14 - May 21, 2025</a><a href="https://x13420x.github.io/volleyball/game_17.html">Game 17 - June 15, 2025</a><a href="https://x13420x.github.io/volleyball/game_18.html">Game 18 - June 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_19.html">Game 19 - June 24, 2025</a>
-                        </div>
+                        <div class="games-dropdown"><a href="https://x13420x.github.io/volleyball/game_3.html" target="_blank">Game 3 - February 26, 2025</a><a href="https://x13420x.github.io/volleyball/game_4.html" target="_blank">Game 4 - February 28, 2025</a><a href="https://x13420x.github.io/volleyball/game_5.html" target="_blank">Game 5 - March 05, 2025</a><a href="https://x13420x.github.io/volleyball/game_6.html" target="_blank">Game 6 - March 08, 2025</a><a href="https://x13420x.github.io/volleyball/game_7.html" target="_blank">Game 7 - March 12, 2025</a><a href="https://x13420x.github.io/volleyball/game_8.html" target="_blank">Game 8 - March 15, 2025</a><a href="https://x13420x.github.io/volleyball/game_9.html" target="_blank">Game 9 - March 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_10.html" target="_blank">Game 10 - March 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_11.html" target="_blank">Game 11 - May 04, 2025</a><a href="https://x13420x.github.io/volleyball/game_12.html" target="_blank">Game 12 - May 17, 2025</a><a href="https://x13420x.github.io/volleyball/game_13.html" target="_blank">Game 13 - May 21, 2025</a><a href="https://x13420x.github.io/volleyball/game_14.html" target="_blank">Game 14 - May 21, 2025</a><a href="https://x13420x.github.io/volleyball/game_17.html" target="_blank">Game 17 - June 15, 2025</a><a href="https://x13420x.github.io/volleyball/game_18.html" target="_blank">Game 18 - June 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_19.html" target="_blank">Game 19 - June 24, 2025</a></div>
                     </td>
                     <td>15</td>
                     <td>-</td>
@@ -229,9 +148,7 @@
                     <td>E2</td>
                     <td class="player-name">
                         Estuardo
-                        <div class="games-dropdown">
-                            <a href="https://x13420x.github.io/volleyball/game_1.html">Game 1 - February 21, 2025</a><a href="https://x13420x.github.io/volleyball/game_3.html">Game 3 - February 26, 2025</a><a href="https://x13420x.github.io/volleyball/game_5.html">Game 5 - March 05, 2025</a><a href="https://x13420x.github.io/volleyball/game_6.html">Game 6 - March 08, 2025</a><a href="https://x13420x.github.io/volleyball/game_9.html">Game 9 - March 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_11.html">Game 11 - May 04, 2025</a><a href="https://x13420x.github.io/volleyball/game_13.html">Game 13 - May 21, 2025</a><a href="https://x13420x.github.io/volleyball/game_14.html">Game 14 - May 21, 2025</a><a href="https://x13420x.github.io/volleyball/game_16.html">Game 16 - May 31, 2025</a>
-                        </div>
+                        <div class="games-dropdown"><a href="https://x13420x.github.io/volleyball/game_1.html" target="_blank">Game 1 - February 21, 2025</a><a href="https://x13420x.github.io/volleyball/game_3.html" target="_blank">Game 3 - February 26, 2025</a><a href="https://x13420x.github.io/volleyball/game_5.html" target="_blank">Game 5 - March 05, 2025</a><a href="https://x13420x.github.io/volleyball/game_6.html" target="_blank">Game 6 - March 08, 2025</a><a href="https://x13420x.github.io/volleyball/game_9.html" target="_blank">Game 9 - March 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_11.html" target="_blank">Game 11 - May 04, 2025</a><a href="https://x13420x.github.io/volleyball/game_13.html" target="_blank">Game 13 - May 21, 2025</a><a href="https://x13420x.github.io/volleyball/game_14.html" target="_blank">Game 14 - May 21, 2025</a><a href="https://x13420x.github.io/volleyball/game_16.html" target="_blank">Game 16 - May 31, 2025</a></div>
                     </td>
                     <td>9</td>
                     <td>-</td>
@@ -241,9 +158,7 @@
                     <td>E3</td>
                     <td class="player-name">
                         Evan
-                        <div class="games-dropdown">
-                            <a href="https://x13420x.github.io/volleyball/game_1.html">Game 1 - February 21, 2025</a><a href="https://x13420x.github.io/volleyball/game_5.html">Game 5 - March 05, 2025</a><a href="https://x13420x.github.io/volleyball/game_9.html">Game 9 - March 23, 2025</a>
-                        </div>
+                        <div class="games-dropdown"><a href="https://x13420x.github.io/volleyball/game_1.html" target="_blank">Game 1 - February 21, 2025</a><a href="https://x13420x.github.io/volleyball/game_5.html" target="_blank">Game 5 - March 05, 2025</a><a href="https://x13420x.github.io/volleyball/game_9.html" target="_blank">Game 9 - March 23, 2025</a></div>
                     </td>
                     <td>3</td>
                     <td>-</td>
@@ -253,9 +168,7 @@
                     <td>F1</td>
                     <td class="player-name">
                         Fernando Villatoro
-                        <div class="games-dropdown">
-                            <a href="https://x13420x.github.io/volleyball/game_1.html">Game 1 - February 21, 2025</a><a href="https://x13420x.github.io/volleyball/game_3.html">Game 3 - February 26, 2025</a><a href="https://x13420x.github.io/volleyball/game_4.html">Game 4 - February 28, 2025</a><a href="https://x13420x.github.io/volleyball/game_5.html">Game 5 - March 05, 2025</a><a href="https://x13420x.github.io/volleyball/game_8.html">Game 8 - March 15, 2025</a><a href="https://x13420x.github.io/volleyball/game_9.html">Game 9 - March 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_10.html">Game 10 - March 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_11.html">Game 11 - May 04, 2025</a><a href="https://x13420x.github.io/volleyball/game_12.html">Game 12 - May 17, 2025</a><a href="https://x13420x.github.io/volleyball/game_13.html">Game 13 - May 21, 2025</a><a href="https://x13420x.github.io/volleyball/game_14.html">Game 14 - May 21, 2025</a><a href="https://x13420x.github.io/volleyball/game_15.html">Game 15 - May 22, 2025</a><a href="https://x13420x.github.io/volleyball/game_16.html">Game 16 - May 31, 2025</a><a href="https://x13420x.github.io/volleyball/game_17.html">Game 17 - June 15, 2025</a><a href="https://x13420x.github.io/volleyball/game_19.html">Game 19 - June 24, 2025</a>
-                        </div>
+                        <div class="games-dropdown"><a href="https://x13420x.github.io/volleyball/game_1.html" target="_blank">Game 1 - February 21, 2025</a><a href="https://x13420x.github.io/volleyball/game_3.html" target="_blank">Game 3 - February 26, 2025</a><a href="https://x13420x.github.io/volleyball/game_4.html" target="_blank">Game 4 - February 28, 2025</a><a href="https://x13420x.github.io/volleyball/game_5.html" target="_blank">Game 5 - March 05, 2025</a><a href="https://x13420x.github.io/volleyball/game_8.html" target="_blank">Game 8 - March 15, 2025</a><a href="https://x13420x.github.io/volleyball/game_9.html" target="_blank">Game 9 - March 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_10.html" target="_blank">Game 10 - March 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_11.html" target="_blank">Game 11 - May 04, 2025</a><a href="https://x13420x.github.io/volleyball/game_12.html" target="_blank">Game 12 - May 17, 2025</a><a href="https://x13420x.github.io/volleyball/game_13.html" target="_blank">Game 13 - May 21, 2025</a><a href="https://x13420x.github.io/volleyball/game_14.html" target="_blank">Game 14 - May 21, 2025</a><a href="https://x13420x.github.io/volleyball/game_15.html" target="_blank">Game 15 - May 22, 2025</a><a href="https://x13420x.github.io/volleyball/game_16.html" target="_blank">Game 16 - May 31, 2025</a><a href="https://x13420x.github.io/volleyball/game_17.html" target="_blank">Game 17 - June 15, 2025</a><a href="https://x13420x.github.io/volleyball/game_19.html" target="_blank">Game 19 - June 24, 2025</a></div>
                     </td>
                     <td>15</td>
                     <td>-</td>
@@ -265,9 +178,7 @@
                     <td>G1</td>
                     <td class="player-name">
                         Génesis
-                        <div class="games-dropdown">
-                            <a href="https://x13420x.github.io/volleyball/game_6.html">Game 6 - March 08, 2025</a><a href="https://x13420x.github.io/volleyball/game_8.html">Game 8 - March 15, 2025</a><a href="https://x13420x.github.io/volleyball/game_9.html">Game 9 - March 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_10.html">Game 10 - March 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_11.html">Game 11 - May 04, 2025</a><a href="https://x13420x.github.io/volleyball/game_12.html">Game 12 - May 17, 2025</a><a href="https://x13420x.github.io/volleyball/game_15.html">Game 15 - May 22, 2025</a><a href="https://x13420x.github.io/volleyball/game_16.html">Game 16 - May 31, 2025</a>
-                        </div>
+                        <div class="games-dropdown"><a href="https://x13420x.github.io/volleyball/game_6.html" target="_blank">Game 6 - March 08, 2025</a><a href="https://x13420x.github.io/volleyball/game_8.html" target="_blank">Game 8 - March 15, 2025</a><a href="https://x13420x.github.io/volleyball/game_9.html" target="_blank">Game 9 - March 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_10.html" target="_blank">Game 10 - March 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_11.html" target="_blank">Game 11 - May 04, 2025</a><a href="https://x13420x.github.io/volleyball/game_12.html" target="_blank">Game 12 - May 17, 2025</a><a href="https://x13420x.github.io/volleyball/game_15.html" target="_blank">Game 15 - May 22, 2025</a><a href="https://x13420x.github.io/volleyball/game_16.html" target="_blank">Game 16 - May 31, 2025</a></div>
                     </td>
                     <td>8</td>
                     <td>-</td>
@@ -277,9 +188,7 @@
                     <td>I1</td>
                     <td class="player-name">
                         Isabel
-                        <div class="games-dropdown">
-                            <a href="https://x13420x.github.io/volleyball/game_1.html">Game 1 - February 21, 2025</a>
-                        </div>
+                        <div class="games-dropdown"><a href="https://x13420x.github.io/volleyball/game_1.html" target="_blank">Game 1 - February 21, 2025</a></div>
                     </td>
                     <td>1</td>
                     <td>-</td>
@@ -289,9 +198,7 @@
                     <td>J1</td>
                     <td class="player-name">
                         Jimmy Mendoza
-                        <div class="games-dropdown">
-                            <a href="https://x13420x.github.io/volleyball/game_2.html">Game 2 - February 25, 2025</a><a href="https://x13420x.github.io/volleyball/game_3.html">Game 3 - February 26, 2025</a><a href="https://x13420x.github.io/volleyball/game_4.html">Game 4 - February 28, 2025</a><a href="https://x13420x.github.io/volleyball/game_5.html">Game 5 - March 05, 2025</a><a href="https://x13420x.github.io/volleyball/game_6.html">Game 6 - March 08, 2025</a><a href="https://x13420x.github.io/volleyball/game_7.html">Game 7 - March 12, 2025</a><a href="https://x13420x.github.io/volleyball/game_8.html">Game 8 - March 15, 2025</a><a href="https://x13420x.github.io/volleyball/game_9.html">Game 9 - March 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_10.html">Game 10 - March 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_11.html">Game 11 - May 04, 2025</a><a href="https://x13420x.github.io/volleyball/game_12.html">Game 12 - May 17, 2025</a><a href="https://x13420x.github.io/volleyball/game_13.html">Game 13 - May 21, 2025</a><a href="https://x13420x.github.io/volleyball/game_14.html">Game 14 - May 21, 2025</a><a href="https://x13420x.github.io/volleyball/game_17.html">Game 17 - June 15, 2025</a><a href="https://x13420x.github.io/volleyball/game_18.html">Game 18 - June 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_19.html">Game 19 - June 24, 2025</a>
-                        </div>
+                        <div class="games-dropdown"><a href="https://x13420x.github.io/volleyball/game_2.html" target="_blank">Game 2 - February 25, 2025</a><a href="https://x13420x.github.io/volleyball/game_3.html" target="_blank">Game 3 - February 26, 2025</a><a href="https://x13420x.github.io/volleyball/game_4.html" target="_blank">Game 4 - February 28, 2025</a><a href="https://x13420x.github.io/volleyball/game_5.html" target="_blank">Game 5 - March 05, 2025</a><a href="https://x13420x.github.io/volleyball/game_6.html" target="_blank">Game 6 - March 08, 2025</a><a href="https://x13420x.github.io/volleyball/game_7.html" target="_blank">Game 7 - March 12, 2025</a><a href="https://x13420x.github.io/volleyball/game_8.html" target="_blank">Game 8 - March 15, 2025</a><a href="https://x13420x.github.io/volleyball/game_9.html" target="_blank">Game 9 - March 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_10.html" target="_blank">Game 10 - March 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_11.html" target="_blank">Game 11 - May 04, 2025</a><a href="https://x13420x.github.io/volleyball/game_12.html" target="_blank">Game 12 - May 17, 2025</a><a href="https://x13420x.github.io/volleyball/game_13.html" target="_blank">Game 13 - May 21, 2025</a><a href="https://x13420x.github.io/volleyball/game_14.html" target="_blank">Game 14 - May 21, 2025</a><a href="https://x13420x.github.io/volleyball/game_17.html" target="_blank">Game 17 - June 15, 2025</a><a href="https://x13420x.github.io/volleyball/game_18.html" target="_blank">Game 18 - June 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_19.html" target="_blank">Game 19 - June 24, 2025</a></div>
                     </td>
                     <td>16</td>
                     <td>-</td>
@@ -301,21 +208,17 @@
                     <td>J2</td>
                     <td class="player-name">
                         Jeremy Cain
-                        <div class="games-dropdown">
-                            <a href="https://x13420x.github.io/volleyball/game_1.html">Game 1 - February 21, 2025</a><a href="https://x13420x.github.io/volleyball/game_2.html">Game 2 - February 25, 2025</a><a href="https://x13420x.github.io/volleyball/game_3.html">Game 3 - February 26, 2025</a><a href="https://x13420x.github.io/volleyball/game_4.html">Game 4 - February 28, 2025</a><a href="https://x13420x.github.io/volleyball/game_5.html">Game 5 - March 05, 2025</a><a href="https://x13420x.github.io/volleyball/game_6.html">Game 6 - March 08, 2025</a><a href="https://x13420x.github.io/volleyball/game_7.html">Game 7 - March 12, 2025</a><a href="https://x13420x.github.io/volleyball/game_8.html">Game 8 - March 15, 2025</a><a href="https://x13420x.github.io/volleyball/game_9.html">Game 9 - March 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_10.html">Game 10 - March 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_11.html">Game 11 - May 04, 2025</a><a href="https://x13420x.github.io/volleyball/game_12.html">Game 12 - May 17, 2025</a><a href="https://x13420x.github.io/volleyball/game_13.html">Game 13 - May 21, 2025</a><a href="https://x13420x.github.io/volleyball/game_14.html">Game 14 - May 21, 2025</a><a href="https://x13420x.github.io/volleyball/game_15.html">Game 15 - May 22, 2025</a><a href="https://x13420x.github.io/volleyball/game_16.html">Game 16 - May 31, 2025</a><a href="https://x13420x.github.io/volleyball/game_17.html">Game 17 - June 15, 2025</a><a href="https://x13420x.github.io/volleyball/game_18.html">Game 18 - June 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_19.html">Game 19 - June 24, 2025</a>
-                        </div>
+                        <div class="games-dropdown"><a href="https://x13420x.github.io/volleyball/game_1.html" target="_blank">Game 1 - February 21, 2025</a><a href="https://x13420x.github.io/volleyball/game_2.html" target="_blank">Game 2 - February 25, 2025</a><a href="https://x13420x.github.io/volleyball/game_3.html" target="_blank">Game 3 - February 26, 2025</a><a href="https://x13420x.github.io/volleyball/game_4.html" target="_blank">Game 4 - February 28, 2025</a><a href="https://x13420x.github.io/volleyball/game_5.html" target="_blank">Game 5 - March 05, 2025</a><a href="https://x13420x.github.io/volleyball/game_6.html" target="_blank">Game 6 - March 08, 2025</a><a href="https://x13420x.github.io/volleyball/game_7.html" target="_blank">Game 7 - March 12, 2025</a><a href="https://x13420x.github.io/volleyball/game_8.html" target="_blank">Game 8 - March 15, 2025</a><a href="https://x13420x.github.io/volleyball/game_9.html" target="_blank">Game 9 - March 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_10.html" target="_blank">Game 10 - March 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_11.html" target="_blank">Game 11 - May 04, 2025</a><a href="https://x13420x.github.io/volleyball/game_12.html" target="_blank">Game 12 - May 17, 2025</a><a href="https://x13420x.github.io/volleyball/game_13.html" target="_blank">Game 13 - May 21, 2025</a><a href="https://x13420x.github.io/volleyball/game_14.html" target="_blank">Game 14 - May 21, 2025</a><a href="https://x13420x.github.io/volleyball/game_15.html" target="_blank">Game 15 - May 22, 2025</a><a href="https://x13420x.github.io/volleyball/game_16.html" target="_blank">Game 16 - May 31, 2025</a><a href="https://x13420x.github.io/volleyball/game_17.html" target="_blank">Game 17 - June 15, 2025</a><a href="https://x13420x.github.io/volleyball/game_18.html" target="_blank">Game 18 - June 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_19.html" target="_blank">Game 19 - June 24, 2025</a></div>
                     </td>
                     <td>19</td>
-                    <td>1559</td>
+                    <td>1545</td>
                 </tr>
 
                 <tr>
                     <td>L1</td>
                     <td class="player-name">
                         Luís
-                        <div class="games-dropdown">
-                            <a href="https://x13420x.github.io/volleyball/game_16.html">Game 16 - May 31, 2025</a><a href="https://x13420x.github.io/volleyball/game_17.html">Game 17 - June 15, 2025</a>
-                        </div>
+                        <div class="games-dropdown"><a href="https://x13420x.github.io/volleyball/game_16.html" target="_blank">Game 16 - May 31, 2025</a><a href="https://x13420x.github.io/volleyball/game_17.html" target="_blank">Game 17 - June 15, 2025</a></div>
                     </td>
                     <td>2</td>
                     <td>-</td>
@@ -325,9 +228,7 @@
                     <td>M1</td>
                     <td class="player-name">
                         Margaret
-                        <div class="games-dropdown">
-                            <a href="https://x13420x.github.io/volleyball/game_4.html">Game 4 - February 28, 2025</a><a href="https://x13420x.github.io/volleyball/game_12.html">Game 12 - May 17, 2025</a><a href="https://x13420x.github.io/volleyball/game_15.html">Game 15 - May 22, 2025</a><a href="https://x13420x.github.io/volleyball/game_17.html">Game 17 - June 15, 2025</a><a href="https://x13420x.github.io/volleyball/game_19.html">Game 19 - June 24, 2025</a>
-                        </div>
+                        <div class="games-dropdown"><a href="https://x13420x.github.io/volleyball/game_4.html" target="_blank">Game 4 - February 28, 2025</a><a href="https://x13420x.github.io/volleyball/game_12.html" target="_blank">Game 12 - May 17, 2025</a><a href="https://x13420x.github.io/volleyball/game_15.html" target="_blank">Game 15 - May 22, 2025</a><a href="https://x13420x.github.io/volleyball/game_17.html" target="_blank">Game 17 - June 15, 2025</a><a href="https://x13420x.github.io/volleyball/game_19.html" target="_blank">Game 19 - June 24, 2025</a></div>
                     </td>
                     <td>5</td>
                     <td>-</td>
@@ -337,9 +238,7 @@
                     <td>M2</td>
                     <td class="player-name">
                         Matias
-                        <div class="games-dropdown">
-                            <a href="https://x13420x.github.io/volleyball/game_1.html">Game 1 - February 21, 2025</a>
-                        </div>
+                        <div class="games-dropdown"><a href="https://x13420x.github.io/volleyball/game_1.html" target="_blank">Game 1 - February 21, 2025</a></div>
                     </td>
                     <td>1</td>
                     <td>-</td>
@@ -349,9 +248,7 @@
                     <td>N1</td>
                     <td class="player-name">
                         Nelsony
-                        <div class="games-dropdown">
-                            <a href="https://x13420x.github.io/volleyball/game_18.html">Game 18 - June 23, 2025</a>
-                        </div>
+                        <div class="games-dropdown"><a href="https://x13420x.github.io/volleyball/game_18.html" target="_blank">Game 18 - June 23, 2025</a></div>
                     </td>
                     <td>1</td>
                     <td>-</td>
@@ -361,9 +258,7 @@
                     <td>R1</td>
                     <td class="player-name">
                         Rosy
-                        <div class="games-dropdown">
-                            <a href="https://x13420x.github.io/volleyball/game_8.html">Game 8 - March 15, 2025</a>
-                        </div>
+                        <div class="games-dropdown"><a href="https://x13420x.github.io/volleyball/game_8.html" target="_blank">Game 8 - March 15, 2025</a></div>
                     </td>
                     <td>1</td>
                     <td>-</td>
@@ -373,9 +268,7 @@
                     <td>V1</td>
                     <td class="player-name">
                         Valery Villatoro
-                        <div class="games-dropdown">
-                            <a href="https://x13420x.github.io/volleyball/game_1.html">Game 1 - February 21, 2025</a><a href="https://x13420x.github.io/volleyball/game_2.html">Game 2 - February 25, 2025</a><a href="https://x13420x.github.io/volleyball/game_3.html">Game 3 - February 26, 2025</a><a href="https://x13420x.github.io/volleyball/game_5.html">Game 5 - March 05, 2025</a><a href="https://x13420x.github.io/volleyball/game_7.html">Game 7 - March 12, 2025</a><a href="https://x13420x.github.io/volleyball/game_8.html">Game 8 - March 15, 2025</a><a href="https://x13420x.github.io/volleyball/game_9.html">Game 9 - March 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_10.html">Game 10 - March 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_11.html">Game 11 - May 04, 2025</a><a href="https://x13420x.github.io/volleyball/game_13.html">Game 13 - May 21, 2025</a><a href="https://x13420x.github.io/volleyball/game_14.html">Game 14 - May 21, 2025</a><a href="https://x13420x.github.io/volleyball/game_16.html">Game 16 - May 31, 2025</a><a href="https://x13420x.github.io/volleyball/game_18.html">Game 18 - June 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_19.html">Game 19 - June 24, 2025</a>
-                        </div>
+                        <div class="games-dropdown"><a href="https://x13420x.github.io/volleyball/game_1.html" target="_blank">Game 1 - February 21, 2025</a><a href="https://x13420x.github.io/volleyball/game_2.html" target="_blank">Game 2 - February 25, 2025</a><a href="https://x13420x.github.io/volleyball/game_3.html" target="_blank">Game 3 - February 26, 2025</a><a href="https://x13420x.github.io/volleyball/game_5.html" target="_blank">Game 5 - March 05, 2025</a><a href="https://x13420x.github.io/volleyball/game_7.html" target="_blank">Game 7 - March 12, 2025</a><a href="https://x13420x.github.io/volleyball/game_8.html" target="_blank">Game 8 - March 15, 2025</a><a href="https://x13420x.github.io/volleyball/game_9.html" target="_blank">Game 9 - March 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_10.html" target="_blank">Game 10 - March 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_11.html" target="_blank">Game 11 - May 04, 2025</a><a href="https://x13420x.github.io/volleyball/game_13.html" target="_blank">Game 13 - May 21, 2025</a><a href="https://x13420x.github.io/volleyball/game_14.html" target="_blank">Game 14 - May 21, 2025</a><a href="https://x13420x.github.io/volleyball/game_16.html" target="_blank">Game 16 - May 31, 2025</a><a href="https://x13420x.github.io/volleyball/game_18.html" target="_blank">Game 18 - June 23, 2025</a><a href="https://x13420x.github.io/volleyball/game_19.html" target="_blank">Game 19 - June 24, 2025</a></div>
                     </td>
                     <td>14</td>
                     <td>-</td>
@@ -385,9 +278,7 @@
                     <td>W1</td>
                     <td class="player-name">
                         Willy
-                        <div class="games-dropdown">
-                            <a href="https://x13420x.github.io/volleyball/game_7.html">Game 7 - March 12, 2025</a><a href="https://x13420x.github.io/volleyball/game_12.html">Game 12 - May 17, 2025</a><a href="https://x13420x.github.io/volleyball/game_13.html">Game 13 - May 21, 2025</a><a href="https://x13420x.github.io/volleyball/game_14.html">Game 14 - May 21, 2025</a><a href="https://x13420x.github.io/volleyball/game_16.html">Game 16 - May 31, 2025</a><a href="https://x13420x.github.io/volleyball/game_19.html">Game 19 - June 24, 2025</a>
-                        </div>
+                        <div class="games-dropdown"><a href="https://x13420x.github.io/volleyball/game_7.html" target="_blank">Game 7 - March 12, 2025</a><a href="https://x13420x.github.io/volleyball/game_12.html" target="_blank">Game 12 - May 17, 2025</a><a href="https://x13420x.github.io/volleyball/game_13.html" target="_blank">Game 13 - May 21, 2025</a><a href="https://x13420x.github.io/volleyball/game_14.html" target="_blank">Game 14 - May 21, 2025</a><a href="https://x13420x.github.io/volleyball/game_16.html" target="_blank">Game 16 - May 31, 2025</a><a href="https://x13420x.github.io/volleyball/game_19.html" target="_blank">Game 19 - June 24, 2025</a></div>
                     </td>
                     <td>6</td>
                     <td>-</td>
