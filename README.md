@@ -1,7 +1,6 @@
 # Volleyball Results
 
 [View All Players](https://x13420x.github.io/volleyball/players.html)
-[View Top 5 Players](https://x13420x.github.io/volleyball/top_players.html)
 
 ## Match History
 
