@@ -5,6 +5,8 @@
 
 ## Match History
 
+- [Game 23 Results - July 03, 2025](https://x13420x.github.io/volleyball/game_23.html)
+- [Game 22 Results - July 03, 2025](https://x13420x.github.io/volleyball/game_22.html)
 - [Game 21 Results - June 30, 2025](https://x13420x.github.io/volleyball/game_21.html)
 - [Game 20 Results - June 25, 2025](https://x13420x.github.io/volleyball/game_20.html)
 - [Game 19 Results - June 24, 2025](https://x13420x.github.io/volleyball/game_19.html)
